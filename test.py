@@ -38,7 +38,7 @@ def load_and_eval():
         # 综合推断结果
         results = results + result1 * lam[name]
     # 保存推断结果
-    np.savetxt('result.csv', results, delimiter=',')
+    np.savetxt('submission.csv', results, delimiter=',')
 
 
 if __name__ == '__main__':
